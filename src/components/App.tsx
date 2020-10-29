@@ -18,6 +18,7 @@ interface State {
   }
 }
 
+
 /* Verb Tenses
   Indicative: present, simple past, present perfect, past perfect, future, future perfect
   Konjunktiv: konjunktiv I & konjunktiv II
