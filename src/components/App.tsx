@@ -37,9 +37,9 @@ class App extends React.Component<Props, State> {
         conjugations: {
           "": { // "Ich"
             term: "", // habe
+            usageExample: "", // "Ich habe ein Dackel"
             translations: {
               "": { // "enUS"
-                usageExample: "", // "Ich habe ein Dackel"
                 usageTranslation: "" // "I have a Dachsund"
               }
             }
@@ -51,18 +51,18 @@ class App extends React.Component<Props, State> {
         sex: "", // masculine, feminine, neutral
         singular: {
           term: "", // "Haus"
+          usageExample: "", // "Das ist mein Haus."
           translations: {
             "": { // enUS
-              usageExample: "", // "Das ist mein Haus."
               usageTranslation: "" // "That is my house."
             }
           }
         },
         plural: {
           term: "", // "Häuser"
+          usageExample: "", // "Ich besitze viele Häuser."
           translations: {
             "": { // enUS
-              usageExample: "", // "Ich besitze viele Häuser."
               usageTranslation: "" // "I own many houses."
             }
           }
